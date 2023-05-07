@@ -1,0 +1,34 @@
+specialty,spec_id
+family practice,0
+internal medicine,1
+surgery-general,2
+critical care medicine (CCM),3
+orthopedics,4
+obstetrics/gynecology,5
+hospitalist,6
+cardiology,7
+infectious disease,8
+hematology/oncology,9
+surgery-neuro,10
+surgery-cardiac,11
+gastroenterology,12
+other,13
+urology,14
+psychiatry,15
+surgery-vascular,16
+pulmonary,17
+emergency medicine,18
+unknown,19
+pulmonary/CCM,20
+otolaryngology,21
+nephrology,22
+neurology,23
+surgery-critical care,24
+oncology,25
+surgery-trauma,26
+surgery-orthopedic,27
+radiology,28
+endocrinology,29
+surgery-transplant,30
+anesthesiology,31
+anesthesiology/CCM,32

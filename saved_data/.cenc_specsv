@@ -1,0 +1,1886 @@
+patientunitstayid,specialty
+141765,hospitalist
+143870,family practice
+144815,internal medicine
+145427,internal medicine
+147307,unknown
+147784,critical care medicine (CCM)
+148611,internal medicine
+149713,family practice
+151179,internal medicine
+151867,surgery-general
+151900,critical care medicine (CCM)
+152954,critical care medicine (CCM)
+153972,internal medicine
+155961,orthopedics
+156308,family practice
+156906,internal medicine
+157016,obstetrics/gynecology
+157427,internal medicine
+158056,critical care medicine (CCM)
+159411,internal medicine
+160313,internal medicine
+160762,internal medicine
+161763,hospitalist
+162502,family practice
+162841,internal medicine
+162842,internal medicine
+163137,family practice
+163524,internal medicine
+165173,cardiology
+165840,internal medicine
+165929,internal medicine
+166175,family practice
+166853,internal medicine
+166864,internal medicine
+167093,hospitalist
+167186,cardiology
+168726,surgery-general
+169525,surgery-general
+169974,family practice
+171925,hospitalist
+172015,family practice
+172414,critical care medicine (CCM)
+172678,surgery-general
+173458,critical care medicine (CCM)
+174608,infectious disease
+174826,critical care medicine (CCM)
+174956,cardiology
+175111,internal medicine
+175243,internal medicine
+176050,cardiology
+176730,internal medicine
+177689,internal medicine
+178858,surgery-general
+179028,internal medicine
+179269,internal medicine
+181906,internal medicine
+184757,critical care medicine (CCM)
+185387,family practice
+185821,surgery-trauma
+186069,hematology/oncology
+186085,internal medicine
+186393,internal medicine
+187150,family practice
+187823,family practice
+189358,internal medicine
+190446,internal medicine
+190764,internal medicine
+192233,surgery-neuro
+193665,internal medicine
+195105,family practice
+197617,surgery-cardiac
+197620,surgery-cardiac
+197646,family practice
+197921,critical care medicine (CCM)
+198627,internal medicine
+202294,internal medicine
+202707,critical care medicine (CCM)
+203101,internal medicine
+204602,critical care medicine (CCM)
+205061,gastroenterology
+205096,internal medicine
+205928,hospitalist
+207393,cardiology
+208460,family practice
+208726,family practice
+209139,family practice
+210641,hospitalist
+210642,hospitalist
+211144,surgery-cardiac
+211715,surgery-general
+214497,critical care medicine (CCM)
+214519,surgery-plastic
+216131,internal medicine
+216950,critical care medicine (CCM)
+216951,critical care medicine (CCM)
+217838,critical care medicine (CCM)
+218742,critical care medicine (CCM)
+219981,internal medicine
+219983,critical care medicine (CCM)
+220469,cardiology
+221005,hospitalist
+221131,surgery-general
+222133,other
+222408,internal medicine
+223303,internal medicine
+223539,surgery-cardiac
+223787,internal medicine
+224606,critical care medicine (CCM)
+225206,internal medicine
+229236,urology
+229383,cardiology
+230427,cardiology
+232447,internal medicine
+232562,family practice
+234934,cardiology
+234941,internal medicine
+235043,internal medicine
+236265,critical care medicine (CCM)
+237332,surgery-general
+237983,infectious disease
+238463,unknown
+239655,internal medicine
+242895,cardiology
+243097,family practice
+243999,internal medicine
+244477,hospitalist
+244707,family practice
+246997,hospitalist
+247261,surgery-general
+249328,urology
+249805,hospitalist
+250073,surgery-neuro
+250574,internal medicine
+250719,internal medicine
+250724,cardiology
+251111,surgery-general
+257287,surgery-general
+257802,surgery-neuro
+258915,hospitalist
+260468,internal medicine
+260647,family practice
+260860,internal medicine
+260961,surgery-general
+261520,cardiology
+262775,internal medicine
+263279,internal medicine
+263850,family practice
+264276,psychiatry
+264423,family practice
+264901,internal medicine
+267196,hospitalist
+267829,surgery-general
+268932,internal medicine
+272886,internal medicine
+272927,gastroenterology
+275329,internal medicine
+276562,surgery-vascular
+276594,orthopedics
+276815,hospitalist
+280350,internal medicine
+281132,family practice
+282439,surgery-general
+284265,pulmonary
+287848,internal medicine
+287931,surgery-orthopedic
+288133,family practice
+289502,internal medicine
+289640,family practice
+290122,surgery-general
+291628,hospitalist
+292154,family practice
+294032,hospitalist
+295112,internal medicine
+295916,family practice
+296926,surgery-vascular
+296927,internal medicine
+297175,hospitalist
+297291,hospitalist
+299914,cardiology
+300007,internal medicine
+300141,oncology
+300142,family practice
+300385,hospitalist
+301185,hospitalist
+301780,family practice
+302226,internal medicine
+302668,internal medicine
+304256,internal medicine
+304631,family practice
+306247,internal medicine
+308316,hospitalist
+310446,hospitalist
+310783,family practice
+312258,family practice
+312665,internal medicine
+313055,cardiology
+313736,hospitalist
+314161,family practice
+314241,family practice
+314889,hospitalist
+316382,family practice
+316495,hospitalist
+319702,internal medicine
+322290,family practice
+325626,family practice
+325924,pulmonary
+326250,emergency medicine
+326251,emergency medicine
+326308,emergency medicine
+329635,family practice
+332253,gastroenterology
+332296,hospitalist
+333689,internal medicine
+334902,hospitalist
+335868,cardiology
+336272,internal medicine
+337621,unknown
+341064,hospitalist
+341322,pulmonary/CCM
+341668,hospitalist
+341780,surgery-cardiac
+341781,surgery-cardiac
+341782,pulmonary
+342371,surgery-general
+342377,gastroenterology
+343093,cardiology
+343094,family practice
+343125,family practice
+345142,family practice
+346379,internal medicine
+346380,internal medicine
+347475,internal medicine
+349322,hospitalist
+349481,internal medicine
+350259,emergency medicine
+350263,emergency medicine
+350437,family practice
+350551,family practice
+351524,surgery-general
+351525,internal medicine
+351526,surgery-general
+351720,unknown
+356949,internal medicine
+357166,surgery-general
+363006,unknown
+364998,internal medicine
+365045,emergency medicine
+367912,gastroenterology
+369237,hospitalist
+369273,family practice
+370128,family practice
+371003,hospitalist
+372007,internal medicine
+373392,surgery-general
+375705,hospitalist
+375725,psychiatry
+375854,family practice
+375855,surgery-general
+376041,orthopedics
+378120,urology
+379119,family practice
+380316,unknown
+380558,family practice
+381129,cardiology
+383124,otolaryngology
+383358,pulmonary/CCM
+384028,pulmonary/CCM
+384485,family practice
+384486,family practice
+386342,hospitalist
+386343,hospitalist
+387623,family practice
+389048,internal medicine
+389703,unknown
+389791,family practice
+390956,family practice
+391704,emergency medicine
+392935,internal medicine
+393769,internal medicine
+395257,family practice
+395323,family practice
+399365,internal medicine
+399455,family practice
+399713,hospitalist
+401176,hospitalist
+401177,hospitalist
+402604,pulmonary
+402918,family practice
+403279,family practice
+403605,internal medicine
+404144,internal medicine
+404832,unknown
+405340,emergency medicine
+405746,surgery-general
+408514,cardiology
+409048,emergency medicine
+410109,internal medicine
+411036,family practice
+416103,hospitalist
+417265,obstetrics/gynecology
+417524,cardiology
+417577,pulmonary/CCM
+417578,cardiology
+418417,emergency medicine
+420354,hospitalist
+420865,internal medicine
+425870,nephrology
+426975,internal medicine
+426976,internal medicine
+430845,hospitalist
+431760,cardiology
+436624,internal medicine
+436993,orthopedics
+439621,hospitalist
+441732,family practice
+443664,obstetrics/gynecology
+444241,hospitalist
+445750,cardiology
+447542,pulmonary/CCM
+447543,internal medicine
+450383,infectious disease
+453326,internal medicine
+453764,pulmonary
+454240,pulmonary
+454584,hospitalist
+466465,hospitalist
+467819,internal medicine
+468560,infectious disease
+469890,nephrology
+472359,hospitalist
+472360,hospitalist
+472811,internal medicine
+472969,family practice
+475290,emergency medicine
+475792,surgery-general
+479455,hospitalist
+482789,pulmonary
+483209,infectious disease
+485952,internal medicine
+486824,hospitalist
+489459,cardiology
+490454,family practice
+490809,nephrology
+493862,family practice
+494366,hospitalist
+496831,family practice
+496980,pulmonary
+498515,nephrology
+498848,cardiology
+498849,cardiology
+499328,cardiology
+503222,hospitalist
+506770,hospitalist
+508973,pulmonary
+509023,family practice
+514387,hospitalist
+518155,family practice
+520522,cardiology
+521456,other
+523787,internal medicine
+524799,neurology
+525046,pulmonary
+529415,internal medicine
+531662,pulmonary/CCM
+531806,gastroenterology
+532222,cardiology
+532223,cardiology
+533168,internal medicine
+535166,hospitalist
+538214,internal medicine
+539481,hospitalist
+539482,hospitalist
+547539,family practice
+547540,family practice
+550209,unknown
+558720,hospitalist
+564216,hospitalist
+564484,unknown
+564485,unknown
+568432,hospitalist
+570087,hospitalist
+572556,internal medicine
+572557,internal medicine
+578187,unknown
+586648,internal medicine
+587426,hospitalist
+589909,internal medicine
+592062,unknown
+592107,internal medicine
+592108,internal medicine
+599651,surgery-cardiac
+600501,hospitalist
+602216,unknown
+603253,internal medicine
+603254,internal medicine
+618867,hospitalist
+634295,internal medicine
+634296,internal medicine
+634297,internal medicine
+635827,internal medicine
+638579,internal medicine
+638580,internal medicine
+639917,unknown
+640795,cardiology
+640796,cardiology
+654286,internal medicine
+662091,pulmonary/CCM
+663910,surgery-general
+664474,unknown
+675037,unknown
+675038,unknown
+678372,otolaryngology
+678373,otolaryngology
+692381,internal medicine
+692382,internal medicine
+694055,surgery-general
+694056,surgery-general
+700741,family practice
+701925,hospitalist
+706953,surgery-general
+706954,surgery-general
+709257,other
+712313,internal medicine
+741995,surgery-general
+741996,surgery-general
+752830,hospitalist
+753083,unknown
+755285,unknown
+755286,unknown
+756295,family practice
+757201,hospitalist
+757202,hospitalist
+769546,internal medicine
+777016,hospitalist
+777017,hospitalist
+788008,hospitalist
+788009,hospitalist
+791784,hospitalist
+808117,surgery-general
+808118,surgery-general
+818155,hospitalist
+826668,internal medicine
+826669,internal medicine
+826989,unknown
+827085,surgery-general
+837709,internal medicine
+838186,hospitalist
+838187,hospitalist
+842498,surgery-vascular
+842499,surgery-vascular
+849186,unknown
+849188,unknown
+850846,internal medicine
+852424,nephrology
+858036,surgery-general
+859201,internal medicine
+859202,internal medicine
+865449,surgery-vascular
+865698,internal medicine
+869525,unknown
+869526,unknown
+876429,surgery-cardiac
+876430,surgery-cardiac
+876479,internal medicine
+876480,internal medicine
+892619,unknown
+899746,surgery-general
+899747,surgery-general
+910048,hospitalist
+910049,hospitalist
+910050,hospitalist
+910051,hospitalist
+910865,unknown
+913057,internal medicine
+922231,unknown
+925146,unknown
+925178,family practice
+926316,nephrology
+926317,internal medicine
+926319,nephrology
+937152,hospitalist
+942529,other
+946276,hospitalist
+949937,hospitalist
+949938,hospitalist
+949939,hospitalist
+958499,hospitalist
+958719,internal medicine
+958720,hospitalist
+958721,internal medicine
+959746,internal medicine
+960567,pulmonary
+960943,pulmonary
+961440,pulmonary
+961441,pulmonary
+963941,pulmonary
+963942,pulmonary
+964436,pulmonary/CCM
+964437,pulmonary/CCM
+968228,pulmonary/CCM
+968599,pulmonary
+969631,internal medicine
+970720,pulmonary/CCM
+970984,pulmonary/CCM
+971247,pulmonary/CCM
+972802,pulmonary
+972876,pulmonary/CCM
+972877,pulmonary/CCM
+972933,pulmonary/CCM
+974986,pulmonary
+975692,pulmonary
+976505,critical care medicine (CCM)
+976722,internal medicine
+976781,pulmonary
+978037,pulmonary
+978518,pulmonary/CCM
+979122,pulmonary/CCM
+994512,neurology
+1008970,pulmonary
+1013300,cardiology
+1014000,critical care medicine (CCM)
+1015158,cardiology
+1034813,surgery-general
+1036408,pulmonary/CCM
+1036759,pulmonary/CCM
+1048833,neurology
+1051785,pulmonary/CCM
+1054428,critical care medicine (CCM)
+1056051,hospitalist
+1056912,critical care medicine (CCM)
+1057967,cardiology
+1058166,surgery-cardiac
+1059533,internal medicine
+1059638,hospitalist
+1059935,surgery-general
+1060026,internal medicine
+1061893,hospitalist
+1062496,critical care medicine (CCM)
+1063405,surgery-cardiac
+1063659,hospitalist
+1063742,hospitalist
+1063956,internal medicine
+1064283,hospitalist
+1065859,hospitalist
+1066202,hospitalist
+1067235,pulmonary
+1068212,pulmonary/CCM
+1068221,surgery-cardiac
+1069005,surgery-cardiac
+1069678,hospitalist
+1070881,hospitalist
+1070882,hospitalist
+1071594,hospitalist
+1072171,critical care medicine (CCM)
+1072172,critical care medicine (CCM)
+1072605,hospitalist
+1072615,hospitalist
+1073098,critical care medicine (CCM)
+1073738,critical care medicine (CCM)
+1073984,hospitalist
+1074253,hospitalist
+1074326,internal medicine
+1075017,internal medicine
+1075126,internal medicine
+1076172,surgery-cardiac
+1076979,internal medicine
+1081591,neurology
+1081610,nephrology
+1081672,internal medicine
+1081886,internal medicine
+1081887,internal medicine
+1083556,internal medicine
+1083557,internal medicine
+1083722,critical care medicine (CCM)
+1084013,family practice
+1087299,internal medicine
+1087596,hospitalist
+1087597,hospitalist
+1088206,internal medicine
+1088450,hospitalist
+1090033,cardiology
+1090039,critical care medicine (CCM)
+1090567,surgery-general
+1090889,hospitalist
+1091111,internal medicine
+1091159,other
+1091677,nephrology
+1093806,surgery-general
+1093888,internal medicine
+1095052,surgery-general
+1095053,surgery-general
+1095527,critical care medicine (CCM)
+1096032,cardiology
+1096127,hospitalist
+1098048,internal medicine
+1098222,critical care medicine (CCM)
+1098223,critical care medicine (CCM)
+1098224,critical care medicine (CCM)
+1098722,critical care medicine (CCM)
+1099398,unknown
+1101375,critical care medicine (CCM)
+1102691,internal medicine
+1103224,critical care medicine (CCM)
+1104499,internal medicine
+1104609,internal medicine
+1104960,family practice
+1105687,internal medicine
+1105833,internal medicine
+1106162,hospitalist
+1106309,internal medicine
+1107208,neurology
+1107902,surgery-critical care
+1108808,internal medicine
+1109136,critical care medicine (CCM)
+1111686,internal medicine
+1113145,critical care medicine (CCM)
+1113267,internal medicine
+1114748,internal medicine
+1115347,internal medicine
+1115614,internal medicine
+1116202,internal medicine
+1116592,hospitalist
+1116712,nephrology
+1117332,cardiology
+1117947,hematology/oncology
+1118171,hospitalist
+1118668,critical care medicine (CCM)
+1118948,family practice
+1118949,family practice
+1119363,internal medicine
+1119918,critical care medicine (CCM)
+1121034,family practice
+1124068,surgery-general
+1124305,family practice
+1131143,unknown
+1131174,cardiology
+1132954,other
+1133463,hospitalist
+1134986,unknown
+1137420,hospitalist
+1141676,internal medicine
+1141764,hospitalist
+1143992,internal medicine
+1144659,pulmonary
+1145673,internal medicine
+1147520,pulmonary/CCM
+1151591,surgery-cardiac
+1151592,cardiology
+1152973,pulmonary/CCM
+1154605,pulmonary
+1154606,pulmonary
+1155753,surgery-general
+1156775,internal medicine
+1160785,surgery-vascular
+1161025,internal medicine
+1161026,internal medicine
+1161082,family practice
+1161207,internal medicine
+1162902,critical care medicine (CCM)
+1162903,critical care medicine (CCM)
+1164093,hospitalist
+1166018,pulmonary/CCM
+1167770,hospitalist
+1171473,pulmonary/CCM
+1173453,pulmonary/CCM
+1174746,pulmonary/CCM
+1174911,pulmonary/CCM
+1174912,pulmonary/CCM
+1176674,cardiology
+1176675,cardiology
+1177589,hospitalist
+1179671,internal medicine
+1180412,nephrology
+1182006,pulmonary
+1184492,internal medicine
+1185666,psychiatry
+1186020,hospitalist
+1189921,surgery-general
+1191262,internal medicine
+1191583,pulmonary/CCM
+1192076,internal medicine
+1193511,pulmonary/CCM
+1195714,surgery-cardiac
+1201396,surgery-general
+1204914,surgery-general
+1211078,pulmonary/CCM
+1211532,hospitalist
+1212475,internal medicine
+1215338,pulmonary/CCM
+1218183,internal medicine
+1224149,internal medicine
+1226346,oncology
+1226362,internal medicine
+1229669,pulmonary/CCM
+1235619,internal medicine
+1247212,critical care medicine (CCM)
+1247906,internal medicine
+1248493,internal medicine
+1250975,internal medicine
+1252128,internal medicine
+1252348,pulmonary
+1252507,pulmonary/CCM
+1252888,internal medicine
+1253494,internal medicine
+1254957,pulmonary/CCM
+1255562,pulmonary/CCM
+1256137,pulmonary/CCM
+1259283,internal medicine
+1259416,pulmonary/CCM
+1259537,nephrology
+1260940,internal medicine
+1261141,psychiatry
+1263251,internal medicine
+1263937,pulmonary
+1264637,internal medicine
+1267484,critical care medicine (CCM)
+1270422,pulmonary/CCM
+1271379,internal medicine
+1272544,internal medicine
+1275596,pulmonary
+1278738,internal medicine
+1282634,internal medicine
+1282697,internal medicine
+1287791,internal medicine
+1289294,internal medicine
+1290248,pulmonary/CCM
+1290999,pulmonary/CCM
+1291973,family practice
+1292009,pulmonary/CCM
+1292649,pulmonary/CCM
+1293742,internal medicine
+1294380,nephrology
+1295372,internal medicine
+1297084,internal medicine
+1298149,pulmonary
+1298150,pulmonary
+1298314,pulmonary
+1303268,internal medicine
+1307826,cardiology
+1308131,pulmonary/CCM
+1311473,cardiology
+1314510,surgery-general
+1318254,hospitalist
+1323983,hospitalist
+1325741,internal medicine
+1325742,neurology
+1326749,hospitalist
+1327852,hospitalist
+1332638,hospitalist
+1334350,cardiology
+1335511,hospitalist
+1338010,hospitalist
+1341462,surgery-general
+1341845,cardiology
+1345180,hospitalist
+1350881,orthopedics
+1351888,cardiology
+1352773,cardiology
+1358809,surgery-general
+1359171,family practice
+1359918,pulmonary
+1363755,hospitalist
+1433842,internal medicine
+1436955,obstetrics/gynecology
+1437505,internal medicine
+1437826,critical care medicine (CCM)
+1439473,internal medicine
+1439835,critical care medicine (CCM)
+1441035,surgery-general
+1441069,internal medicine
+1441610,hospitalist
+1443414,internal medicine
+1444850,internal medicine
+1447123,cardiology
+1447124,cardiology
+1448756,surgery-trauma
+1449360,obstetrics/gynecology
+1450140,internal medicine
+1450141,internal medicine
+1450177,obstetrics/gynecology
+1451800,obstetrics/gynecology
+1453811,cardiology
+1455088,internal medicine
+1456586,obstetrics/gynecology
+1457319,internal medicine
+1457680,hospitalist
+1457949,internal medicine
+1461035,obstetrics/gynecology
+1462227,critical care medicine (CCM)
+1463884,hematology/oncology
+1466698,family practice
+1473617,internal medicine
+1474690,internal medicine
+1478653,hospitalist
+1483029,internal medicine
+1485382,internal medicine
+1488334,hospitalist
+1488633,internal medicine
+1492182,hospitalist
+1494982,critical care medicine (CCM)
+1496959,internal medicine
+1497157,obstetrics/gynecology
+1501907,internal medicine
+1502521,internal medicine
+1506131,critical care medicine (CCM)
+1507417,internal medicine
+1507565,cardiology
+1514653,internal medicine
+1516341,hospitalist
+1516976,internal medicine
+1525675,nephrology
+1528129,internal medicine
+1532382,internal medicine
+1536635,critical care medicine (CCM)
+1536927,obstetrics/gynecology
+1540035,internal medicine
+1544756,surgery-general
+1545675,obstetrics/gynecology
+1546668,critical care medicine (CCM)
+1547780,internal medicine
+1550318,obstetrics/gynecology
+1550501,internal medicine
+1553527,internal medicine
+1553788,internal medicine
+1553789,internal medicine
+1553915,cardiology
+1554049,surgery-general
+1555005,cardiology
+1555314,internal medicine
+1557373,internal medicine
+1557515,family practice
+1558170,pulmonary
+1558329,family practice
+1558444,internal medicine
+1559041,family practice
+1559197,internal medicine
+1560251,internal medicine
+1560307,surgery-orthopedic
+1560608,surgery-general
+1563281,family practice
+1563484,family practice
+1563797,internal medicine
+1564685,pulmonary
+1567241,internal medicine
+1567943,internal medicine
+1568171,cardiology
+1568200,surgery-neuro
+1568247,surgery-neuro
+1568559,internal medicine
+1569178,pulmonary
+1569285,internal medicine
+1569571,surgery-general
+1570210,internal medicine
+1571036,surgery-cardiac
+1571101,internal medicine
+1571533,surgery-cardiac
+1572351,internal medicine
+1573545,family practice
+1573546,pulmonary
+1574603,cardiology
+1574850,surgery-general
+1575432,internal medicine
+1576578,surgery-cardiac
+1576845,internal medicine
+1576992,cardiology
+1578108,pulmonary
+1578411,cardiology
+1580706,family practice
+1580986,internal medicine
+1582472,internal medicine
+1582555,surgery-neuro
+1584003,pulmonary
+1584838,surgery-neuro
+1585807,surgery-general
+1587217,neurology
+1587268,internal medicine
+1588177,family practice
+1588473,radiology
+1588606,internal medicine
+1588817,internal medicine
+1588896,surgery-cardiac
+1590358,internal medicine
+1590387,internal medicine
+1590480,internal medicine
+1590738,surgery-general
+1590842,emergency medicine
+1591761,surgery-general
+1592412,surgery-cardiac
+1592593,internal medicine
+1592666,surgery-cardiac
+1592685,surgery-trauma
+1593179,unknown
+1593818,pulmonary
+1598701,hospitalist
+1598702,hospitalist
+1599068,internal medicine
+1600008,other
+1600230,surgery-neuro
+1602040,surgery-general
+1605725,surgery-cardiac
+1607519,hospitalist
+1608445,hospitalist
+1609629,unknown
+1610742,hospitalist
+1612901,surgery-cardiac
+1613434,hospitalist
+1617862,unknown
+1619343,hospitalist
+1620730,hospitalist
+1620780,hospitalist
+1620810,internal medicine
+1622702,pulmonary
+1624344,family practice
+1625701,internal medicine
+1626712,internal medicine
+1629316,family practice
+1630908,internal medicine
+1631671,hospitalist
+1633333,internal medicine
+1633707,internal medicine
+1635061,obstetrics/gynecology
+1636307,orthopedics
+1637431,internal medicine
+1638510,hospitalist
+1642265,internal medicine
+1644719,cardiology
+1645127,internal medicine
+1645221,internal medicine
+1645662,pulmonary/CCM
+1648745,internal medicine
+1650041,hospitalist
+1650500,cardiology
+1651376,unknown
+1651562,hospitalist
+1651765,hospitalist
+1652064,surgery-general
+1652644,internal medicine
+1653043,internal medicine
+1657457,surgery-general
+1657586,internal medicine
+1658004,internal medicine
+1659918,internal medicine
+1659928,surgery-general
+1660684,family practice
+1661435,surgery-general
+1661775,internal medicine
+1664335,internal medicine
+1664412,hospitalist
+1665435,internal medicine
+1666709,internal medicine
+1669711,hospitalist
+1670512,hospitalist
+1671276,hospitalist
+1671497,hospitalist
+1672915,pulmonary/CCM
+1673638,hospitalist
+1674473,hospitalist
+1674875,internal medicine
+1677540,internal medicine
+1680400,family practice
+1681068,unknown
+1682105,internal medicine
+1682793,surgery-cardiac
+1682989,hospitalist
+1683717,unknown
+1685483,surgery-cardiac
+1685484,surgery-cardiac
+1685731,pulmonary/CCM
+1686778,pulmonary
+1687519,hospitalist
+1687744,hospitalist
+1692067,family practice
+1693494,surgery-general
+1694608,pulmonary/CCM
+1695183,hospitalist
+1702184,pulmonary
+1703287,surgery-general
+1705630,unknown
+1707249,orthopedics
+1708886,neurology
+1709755,hospitalist
+1709991,pulmonary/CCM
+1712442,internal medicine
+1713012,hospitalist
+1713320,internal medicine
+1714511,pulmonary
+1714981,family practice
+1716263,unknown
+1716814,hospitalist
+1717851,unknown
+1718412,surgery-cardiac
+1718492,family practice
+1719419,family practice
+1721605,internal medicine
+1723016,cardiology
+1724218,unknown
+1725431,internal medicine
+1725601,cardiology
+1726091,internal medicine
+1728137,critical care medicine (CCM)
+1728151,cardiology
+1731644,pulmonary
+1731654,hospitalist
+1731977,unknown
+1732031,unknown
+1732397,internal medicine
+1733359,cardiology
+1733365,family practice
+1733366,family practice
+1733584,family practice
+1734992,cardiology
+1735220,internal medicine
+1735497,unknown
+1736752,cardiology
+1736753,family practice
+1737144,unknown
+1739131,surgery-general
+1740411,family practice
+1741470,other
+1743307,pulmonary
+1744369,nephrology
+1744853,hospitalist
+1744887,family practice
+1746313,internal medicine
+1746977,cardiology
+1748443,internal medicine
+1749391,internal medicine
+1750680,internal medicine
+1750681,internal medicine
+1751224,unknown
+1754323,urology
+1756030,psychiatry
+1757145,surgery-general
+1758977,unknown
+1765641,cardiology
+1767810,internal medicine
+1767854,unknown
+1768103,internal medicine
+1768638,nephrology
+1769880,unknown
+1770612,nephrology
+1771521,surgery-general
+1772266,unknown
+1772777,unknown
+1772933,internal medicine
+1773222,family practice
+1774133,cardiology
+1775226,internal medicine
+1775944,unknown
+1781359,family practice
+1783561,pulmonary
+1785012,internal medicine
+1785133,internal medicine
+1785418,internal medicine
+1785501,unknown
+1786286,unknown
+1788165,unknown
+1788166,unknown
+1788623,nephrology
+1790300,family practice
+1790816,cardiology
+1791479,family practice
+1794248,nephrology
+1794908,unknown
+1795109,critical care medicine (CCM)
+1795131,family practice
+1795300,internal medicine
+1798420,internal medicine
+1798839,pulmonary
+1799186,family practice
+1802488,pulmonary/CCM
+1803053,internal medicine
+1805312,other
+1806949,internal medicine
+1807156,cardiology
+1807157,cardiology
+1809093,internal medicine
+1810059,internal medicine
+1810300,family practice
+1811623,unknown
+1811733,infectious disease
+1812280,cardiology
+1813166,surgery-general
+1813246,unknown
+1813792,unknown
+1814180,internal medicine
+1816075,unknown
+1817190,unknown
+1817625,unknown
+1817626,unknown
+1817627,unknown
+1818922,nephrology
+1819746,cardiology
+1820234,other
+1820689,internal medicine
+1820865,unknown
+1821487,other
+1821939,unknown
+1823356,unknown
+1823442,nephrology
+1823727,nephrology
+1823939,internal medicine
+1824650,family practice
+1825654,neurology
+1827129,internal medicine
+1827722,surgery-general
+1829278,unknown
+1830188,gastroenterology
+1831111,surgery-neuro
+1831437,unknown
+1832677,pulmonary/CCM
+1833568,family practice
+1835048,family practice
+1835141,unknown
+1835858,cardiology
+1836673,family practice
+1837638,unknown
+1837963,endocrinology
+1837964,internal medicine
+1839583,internal medicine
+1839696,hospitalist
+1841590,unknown
+1842417,surgery-cardiac
+1843889,unknown
+1845109,internal medicine
+1845580,surgery-neuro
+1846269,unknown
+1849124,unknown
+1851120,internal medicine
+1851750,cardiology
+1852395,internal medicine
+1852625,internal medicine
+1853162,cardiology
+1854640,unknown
+1855917,unknown
+1855918,pulmonary
+1856167,internal medicine
+1856168,internal medicine
+1856821,unknown
+1858620,unknown
+1968908,cardiology
+1976430,hospitalist
+1979528,cardiology
+1981330,internal medicine
+1982458,critical care medicine (CCM)
+1985151,family practice
+1985995,internal medicine
+1998890,internal medicine
+2010574,hospitalist
+2011495,neurology
+2015123,surgery-neuro
+2015339,cardiology
+2016011,internal medicine
+2016313,critical care medicine (CCM)
+2032312,cardiology
+2038433,critical care medicine (CCM)
+2038434,internal medicine
+2056364,critical care medicine (CCM)
+2056365,critical care medicine (CCM)
+2065738,internal medicine
+2069695,neurology
+2069920,internal medicine
+2075278,cardiology
+2075529,pulmonary/CCM
+2078216,surgery-cardiac
+2078217,surgery-cardiac
+2081387,cardiology
+2081807,surgery-vascular
+2085133,hospitalist
+2085134,hospitalist
+2085136,hospitalist
+2091116,urology
+2091118,urology
+2093906,hospitalist
+2095984,critical care medicine (CCM)
+2097882,surgery-vascular
+2103754,hospitalist
+2108150,internal medicine
+2114686,hospitalist
+2119136,hospitalist
+2119141,internal medicine
+2124939,oncology
+2125600,cardiology
+2128571,family practice
+2133970,critical care medicine (CCM)
+2134224,other
+2141699,internal medicine
+2143474,critical care medicine (CCM)
+2150580,hospitalist
+2154422,surgery-cardiac
+2161221,internal medicine
+2167151,surgery-neuro
+2167318,hospitalist
+2167319,hospitalist
+2167320,hospitalist
+2175636,surgery-cardiac
+2189631,critical care medicine (CCM)
+2192095,internal medicine
+2193649,internal medicine
+2199589,critical care medicine (CCM)
+2202736,cardiology
+2208455,unknown
+2215634,critical care medicine (CCM)
+2215881,cardiology
+2216546,internal medicine
+2219934,surgery-general
+2220763,hospitalist
+2220764,hospitalist
+2220765,hospitalist
+2225781,surgery-cardiac
+2225847,surgery-cardiac
+2230341,cardiology
+2233402,internal medicine
+2233403,internal medicine
+2236841,hospitalist
+2240562,critical care medicine (CCM)
+2245791,cardiology
+2248699,internal medicine
+2249486,hospitalist
+2249577,internal medicine
+2251446,cardiology
+2251457,internal medicine
+2258562,pulmonary/CCM
+2263091,cardiology
+2264884,pulmonary
+2266898,surgery-cardiac
+2284508,surgery-cardiac
+2293457,hospitalist
+2303499,internal medicine
+2303500,internal medicine
+2305273,unknown
+2308009,family practice
+2308573,surgery-general
+2309912,unknown
+2310584,hospitalist
+2315541,internal medicine
+2316703,internal medicine
+2323544,critical care medicine (CCM)
+2323567,surgery-general
+2325386,surgery-orthopedic
+2330077,family practice
+2332985,family practice
+2334053,internal medicine
+2334309,critical care medicine (CCM)
+2335944,hospitalist
+2340803,oncology
+2347487,other
+2349210,hospitalist
+2358786,internal medicine
+2360838,hospitalist
+2360939,hospitalist
+2361839,family practice
+2363597,internal medicine
+2367340,critical care medicine (CCM)
+2371837,hospitalist
+2372698,critical care medicine (CCM)
+2374553,hospitalist
+2386143,internal medicine
+2390106,critical care medicine (CCM)
+2392486,hospitalist
+2396285,surgery-cardiac
+2396286,surgery-cardiac
+2396287,surgery-cardiac
+2399157,internal medicine
+2399222,cardiology
+2403083,critical care medicine (CCM)
+2406601,surgery-cardiac
+2408961,internal medicine
+2416376,internal medicine
+2418055,critical care medicine (CCM)
+2419068,unknown
+2419768,internal medicine
+2420527,hospitalist
+2426565,surgery-cardiac
+2428516,unknown
+2428517,internal medicine
+2432351,hospitalist
+2432352,hospitalist
+2436357,pulmonary
+2436616,internal medicine
+2440723,family practice
+2441710,surgery-cardiac
+2442461,surgery-trauma
+2450383,internal medicine
+2461255,hospitalist
+2462225,hospitalist
+2466952,internal medicine
+2469796,internal medicine
+2470125,internal medicine
+2473922,critical care medicine (CCM)
+2475260,hospitalist
+2476524,internal medicine
+2480458,internal medicine
+2482439,hospitalist
+2486007,critical care medicine (CCM)
+2488182,pulmonary
+2492729,internal medicine
+2492731,internal medicine
+2492811,internal medicine
+2492812,internal medicine
+2493040,internal medicine
+2493041,internal medicine
+2498010,hospitalist
+2498011,hospitalist
+2501548,hospitalist
+2505582,unknown
+2511125,hospitalist
+2512314,hospitalist
+2512481,internal medicine
+2518855,hospitalist
+2521021,critical care medicine (CCM)
+2523738,hospitalist
+2525696,cardiology
+2527253,internal medicine
+2552038,pulmonary/CCM
+2553254,critical care medicine (CCM)
+2557586,critical care medicine (CCM)
+2558122,nephrology
+2559053,pulmonary/CCM
+2568975,pulmonary/CCM
+2571427,internal medicine
+2573381,family practice
+2573914,surgery-general
+2574532,surgery-general
+2575089,internal medicine
+2577120,hospitalist
+2579022,urology
+2580677,family practice
+2580992,internal medicine
+2581351,hospitalist
+2581366,internal medicine
+2583107,family practice
+2584022,hospitalist
+2585711,surgery-general
+2586449,hospitalist
+2586921,family practice
+2587791,hospitalist
+2588265,cardiology
+2589190,cardiology
+2589516,family practice
+2589698,hospitalist
+2592641,family practice
+2593036,cardiology
+2593741,hospitalist
+2594234,internal medicine
+2594608,family practice
+2595322,psychiatry
+2595334,cardiology
+2595771,family practice
+2595884,internal medicine
+2596753,hospitalist
+2597116,cardiology
+2597268,internal medicine
+2597776,hospitalist
+2597777,hospitalist
+2597803,family practice
+2598769,cardiology
+2599455,hospitalist
+2600767,hospitalist
+2600791,hospitalist
+2601053,family practice
+2601684,internal medicine
+2602528,hospitalist
+2602775,internal medicine
+2603071,surgery-general
+2603273,hospitalist
+2603291,hospitalist
+2604431,cardiology
+2606115,family practice
+2606739,hospitalist
+2607173,internal medicine
+2607275,hospitalist
+2607501,urology
+2607903,surgery-cardiac
+2608568,hospitalist
+2608936,hospitalist
+2609132,hospitalist
+2609672,endocrinology
+2609955,hospitalist
+2610399,internal medicine
+2611237,hospitalist
+2611440,cardiology
+2611778,surgery-neuro
+2614028,family practice
+2614646,family practice
+2614647,family practice
+2616371,hospitalist
+2618178,surgery-transplant
+2618534,internal medicine
+2619844,hospitalist
+2621338,pulmonary/CCM
+2621632,cardiology
+2621948,cardiology
+2622133,surgery-cardiac
+2622491,family practice
+2622629,nephrology
+2623519,family practice
+2625804,cardiology
+2627050,hospitalist
+2627270,cardiology
+2627574,hospitalist
+2628192,family practice
+2628523,cardiology
+2628859,pulmonary
+2629735,family practice
+2630349,family practice
+2630865,nephrology
+2631050,hospitalist
+2632476,family practice
+2632637,nephrology
+2634628,family practice
+2635167,hospitalist
+2635168,cardiology
+2635556,internal medicine
+2635557,internal medicine
+2637542,hospitalist
+2637669,hospitalist
+2639649,hospitalist
+2642496,surgery-cardiac
+2643910,hematology/oncology
+2644671,internal medicine
+2644765,internal medicine
+2645295,hospitalist
+2645565,internal medicine
+2646210,hospitalist
+2669317,unknown
+2670190,internal medicine
+2670191,internal medicine
+2672387,hospitalist
+2675931,unknown
+2677807,surgery-cardiac
+2678186,family practice
+2683496,surgery-general
+2684065,other
+2684386,unknown
+2685279,internal medicine
+2687268,surgery-cardiac
+2687617,hospitalist
+2687785,unknown
+2689235,hospitalist
+2689919,internal medicine
+2691019,unknown
+2692124,surgery-cardiac
+2692183,pulmonary/CCM
+2694334,pulmonary
+2694451,surgery-general
+2694977,critical care medicine (CCM)
+2695180,hospitalist
+2696071,internal medicine
+2696749,hospitalist
+2699440,unknown
+2702636,cardiology
+2703113,pulmonary/CCM
+2705166,hospitalist
+2705983,hospitalist
+2707013,unknown
+2709370,internal medicine
+2712662,family practice
+2713393,hospitalist
+2714092,unknown
+2714202,other
+2714303,unknown
+2715137,internal medicine
+2716852,surgery-vascular
+2717280,internal medicine
+2718495,internal medicine
+2720598,internal medicine
+2721402,orthopedics
+2721454,cardiology
+2723117,internal medicine
+2724119,hospitalist
+2724252,internal medicine
+2724441,hospitalist
+2725629,internal medicine
+2726655,family practice
+2726926,surgery-general
+2727377,unknown
+2728472,unknown
+2729266,unknown
+2729735,hospitalist
+2732669,pulmonary/CCM
+2733462,internal medicine
+2733542,surgery-vascular
+2734372,internal medicine
+2735284,cardiology
+2735374,other
+2735662,hospitalist
+2737587,surgery-trauma
+2737792,surgery-general
+2738362,hospitalist
+2739712,unknown
+2740390,hospitalist
+2740440,internal medicine
+2740973,otolaryngology
+2742509,pulmonary/CCM
+2743241,unknown
+2744115,surgery-general
+2745039,surgery-cardiac
+2747417,internal medicine
+2748974,pulmonary
+2749424,internal medicine
+2751276,hospitalist
+2752622,hospitalist
+2753471,surgery-general
+2754365,hospitalist
+2754778,cardiology
+2755766,surgery-vascular
+2756945,hospitalist
+2757707,surgery-cardiac
+2757872,cardiology
+2758157,internal medicine
+2758779,hospitalist
+2759559,hospitalist
+2760099,surgery-general
+2761777,unknown
+2764138,unknown
+2766005,other
+2767923,internal medicine
+2768566,other
+2770318,unknown
+2772818,pulmonary/CCM
+2773804,hospitalist
+2774467,internal medicine
+2774569,hospitalist
+2774779,internal medicine
+2776590,hospitalist
+2778278,unknown
+2778495,surgery-general
+2781413,hospitalist
+2784403,internal medicine
+2784404,internal medicine
+2784405,internal medicine
+2786505,anesthesiology
+2786506,anesthesiology
+2788588,internal medicine
+2791385,other
+2792350,infectious disease
+2793359,surgery-cardiac
+2794087,internal medicine
+2794088,internal medicine
+2794381,unknown
+2794541,gastroenterology
+2795183,surgery-cardiac
+2795570,cardiology
+2797147,unknown
+2798666,pulmonary/CCM
+2801211,hospitalist
+2803940,surgery-general
+2804045,unknown
+2804325,hospitalist
+2805423,surgery-cardiac
+2805897,emergency medicine
+2808515,internal medicine
+2812202,pulmonary/CCM
+2813307,other
+2814579,surgery-cardiac
+2818861,hospitalist
+2819402,critical care medicine (CCM)
+2820527,unknown
+2821497,other
+2821884,unknown
+2822610,pulmonary/CCM
+2823485,unknown
+2823926,unknown
+2825734,neurology
+2826676,internal medicine
+2826931,surgery-general
+2827046,unknown
+2829425,hospitalist
+2831222,unknown
+2831316,unknown
+2832104,hospitalist
+2833930,hospitalist
+2833949,unknown
+2834193,internal medicine
+2837926,hospitalist
+2838819,surgery-cardiac
+2841583,cardiology
+2841584,cardiology
+2841585,cardiology
+2841632,unknown
+2841895,other
+2842748,internal medicine
+2846485,hospitalist
+2847703,cardiology
+2848323,cardiology
+2848336,pulmonary/CCM
+2848387,internal medicine
+2848941,unknown
+2849399,pulmonary/CCM
+2853320,internal medicine
+2853358,internal medicine
+2854941,surgery-cardiac
+2855098,hospitalist
+2857326,hospitalist
+2857777,hospitalist
+2858139,cardiology
+2859392,internal medicine
+2860223,pulmonary/CCM
+2860660,hospitalist
+2860661,hospitalist
+2861097,surgery-trauma
+2864521,pulmonary/CCM
+2866893,internal medicine
+2867190,surgery-general
+2868265,cardiology
+2869280,surgery-general
+2869455,unknown
+2870391,hospitalist
+2870678,hospitalist
+2870997,surgery-general
+2872638,pulmonary/CCM
+2872788,internal medicine
+2873230,unknown
+2873463,hospitalist
+2873466,hospitalist
+2876381,unknown
+2878847,internal medicine
+2879352,internal medicine
+2879373,internal medicine
+2879465,hospitalist
+2880131,other
+2883334,pulmonary/CCM
+2885054,surgery-general
+2886183,surgery-vascular
+2887358,hospitalist
+2891211,other
+2892403,cardiology
+2892404,cardiology
+2893348,other
+2893870,internal medicine
+2894029,hospitalist
+2895549,internal medicine
+2897465,hospitalist
+2898046,internal medicine
+2898513,internal medicine
+2899929,urology
+2900423,internal medicine
+2902156,hospitalist
+2903553,critical care medicine (CCM)
+2903847,critical care medicine (CCM)
+2903848,critical care medicine (CCM)
+2905728,cardiology
+2906477,critical care medicine (CCM)
+2906478,critical care medicine (CCM)
+2914101,critical care medicine (CCM)
+2918903,critical care medicine (CCM)
+2940544,critical care medicine (CCM)
+2943467,critical care medicine (CCM)
+2953061,surgery-cardiac
+2960916,critical care medicine (CCM)
+2970589,critical care medicine (CCM)
+2973367,hospitalist
+2980454,critical care medicine (CCM)
+2982292,critical care medicine (CCM)
+2982293,critical care medicine (CCM)
+2982294,critical care medicine (CCM)
+2983640,hospitalist
+2990225,critical care medicine (CCM)
+2999209,surgery-general
+3001552,critical care medicine (CCM)
+3003035,endocrinology
+3003844,cardiology
+3009480,pulmonary/CCM
+3011600,surgery-neuro
+3012414,hospitalist
+3017716,pulmonary/CCM
+3019476,pulmonary/CCM
+3021108,family practice
+3021362,surgery-cardiac
+3023263,cardiology
+3025797,surgery-general
+3027283,internal medicine
+3027284,internal medicine
+3027681,surgery-cardiac
+3029353,family practice
+3029852,cardiology
+3030641,cardiology
+3031944,surgery-cardiac
+3033795,surgery-cardiac
+3033797,surgery-general
+3034194,family practice
+3035113,pulmonary/CCM
+3035600,neurology
+3035601,neurology
+3035602,surgery-trauma
+3037894,pulmonary/CCM
+3038707,hospitalist
+3038770,pulmonary
+3042718,hospitalist
+3046540,hospitalist
+3046967,pulmonary/CCM
+3047675,unknown
+3048982,hospitalist
+3053511,hospitalist
+3055167,hospitalist
+3057805,neurology
+3057806,pulmonary/CCM
+3058804,hospitalist
+3058972,pulmonary/CCM
+3060213,pulmonary/CCM
+3063333,pulmonary/CCM
+3066852,hospitalist
+3067246,internal medicine
+3067309,pulmonary/CCM
+3068380,pulmonary/CCM
+3069211,pulmonary/CCM
+3069831,pulmonary/CCM
+3070432,emergency medicine
+3072205,hospitalist
+3075364,pulmonary/CCM
+3075813,pulmonary/CCM
+3076005,hospitalist
+3077438,hospitalist
+3078650,anesthesiology/CCM
+3079056,hospitalist
+3079543,pulmonary/CCM
+3079819,hospitalist
+3083539,family practice
+3083578,pulmonary/CCM
+3085130,surgery-vascular
+3085970,pulmonary/CCM
+3086265,pulmonary/CCM
+3086494,pulmonary/CCM
+3086799,hospitalist
+3088802,hospitalist
+3090122,family practice
+3092621,hospitalist
+3094334,hospitalist
+3095720,pulmonary/CCM
+3096492,internal medicine
+3097587,pulmonary/CCM
+3098570,hospitalist
+3098657,pulmonary/CCM
+3099676,family practice
+3099740,internal medicine
+3100629,surgery-neuro
+3100720,emergency medicine
+3101166,hospitalist
+3103433,hospitalist
+3103434,unknown
+3104196,family practice
+3104543,hospitalist
+3106694,cardiology
+3107149,emergency medicine
+3110594,internal medicine
+3111371,critical care medicine (CCM)
+3112232,hospitalist
+3112268,hospitalist
+3112826,hospitalist
+3112960,hospitalist
+3114713,pulmonary/CCM
+3114730,internal medicine
+3115052,surgery-trauma
+3115505,pulmonary/CCM
+3115660,hospitalist
+3116577,anesthesiology
+3119186,hospitalist
+3122044,hospitalist
+3122442,pulmonary/CCM
+3124262,pulmonary/CCM
+3124638,unknown
+3124669,pulmonary/CCM
+3126933,pulmonary/CCM
+3127160,pulmonary/CCM
+3128596,internal medicine
+3130379,pulmonary/CCM
+3132106,surgery-general
+3132615,hospitalist
+3132859,internal medicine
+3133465,gastroenterology
+3133874,internal medicine
+3134824,hospitalist
+3134971,internal medicine
+3135484,hospitalist
+3138091,internal medicine
+3138092,internal medicine
+3138448,critical care medicine (CCM)
+3139532,internal medicine
+3143195,internal medicine
+3144334,unknown
+3144842,surgery-general
+3145787,critical care medicine (CCM)
+3148997,internal medicine
+3150018,family practice
+3150622,hospitalist
+3151670,hospitalist
+3152607,internal medicine
+3153894,surgery-cardiac
+3154460,critical care medicine (CCM)
+3155276,internal medicine
+3155299,pulmonary
+3155533,internal medicine
+3155534,internal medicine
+3156990,hospitalist
+3157896,hospitalist
+3158501,pulmonary
+3158680,internal medicine
+3159396,family practice
+3159558,internal medicine
+3159826,internal medicine
+3160233,internal medicine
+3160468,internal medicine
+3163046,surgery-general
+3163372,surgery-transplant
+3163373,pulmonary/CCM
+3163374,surgery-critical care
+3172946,cardiology
+3178242,surgery-trauma
+3183245,pulmonary/CCM
+3185495,critical care medicine (CCM)
+3186183,surgery-neuro
+3194733,pulmonary/CCM
+3199448,cardiology
+3199449,cardiology
+3204052,unknown
+3205101,critical care medicine (CCM)
+3205786,surgery-neuro
+3206460,internal medicine
+3207230,internal medicine
+3207237,surgery-general
+3207238,internal medicine
+3208300,internal medicine
+3208830,internal medicine
+3210585,unknown
+3211257,surgery-neuro
+3211766,pulmonary
+3212957,surgery-vascular
+3214193,family practice
+3214314,unknown
+3216824,pulmonary/CCM
+3216931,pulmonary/CCM
+3220742,unknown
+3223634,hospitalist
+3225577,critical care medicine (CCM)
+3225620,unknown
+3225660,pulmonary/CCM
+3225692,hospitalist
+3230480,critical care medicine (CCM)
+3230503,hospitalist
+3231363,hospitalist
+3233306,critical care medicine (CCM)
+3233620,hospitalist
+3233997,surgery-neuro
+3235765,internal medicine
+3237226,family practice
+3237333,pulmonary/CCM
+3238529,internal medicine
+3238816,hospitalist
+3239262,family practice
+3239375,surgery-vascular
+3241571,hospitalist
+3242157,internal medicine
+3243205,hospitalist
+3245076,internal medicine
+3246445,surgery-neuro
+3246790,internal medicine
+3327376,critical care medicine (CCM)
+3331430,hospitalist
+3333068,critical care medicine (CCM)
+3333069,critical care medicine (CCM)
+3334456,surgery-general
+3334564,surgery-trauma
+3335354,hospitalist
+3335380,hospitalist
+3341035,cardiology
+3341168,hospitalist
+3343295,hospitalist
+3344942,psychiatry
+3344945,hospitalist
+3345634,cardiology
+3346187,surgery-general
+3346866,critical care medicine (CCM)
+3347501,surgery-general
+3347502,surgery-general
+3348292,critical care medicine (CCM)
+3348293,hospitalist
+3348409,hospitalist
+3351295,surgery-cardiac
+3351297,cardiology
+3351763,critical care medicine (CCM)
+3352230,surgery-cardiac
+3352231,cardiology
+3352333,pulmonary/CCM
+3353113,hospitalist
