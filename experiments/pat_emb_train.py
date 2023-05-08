@@ -25,7 +25,7 @@ def parse_args():
     parser.add_argument('--seed', type=int, default=1986,
                         help='global random seed number')
 
-    parser.add_argument('--epochs', type=int, default=200,
+    parser.add_argument('--epochs', type=int, default=20,
                         help='number of epochs of training')
 
     parser.add_argument('--lr', type=float, default=0.0025,
@@ -42,7 +42,7 @@ def parse_args():
 
     parser.add_argument('--log-interval', type=int, default=20)
 
-    parser.add_argument('--checkpoint', dest='checkpoint', action='store_true')
+    parser.add_argument('--check_point', dest='check_point', action='store_true')
     parser.set_defaults(weighted=True)
 
     return parser.parse_args()
@@ -118,7 +118,8 @@ def main(args):
             if train_loss < best_loss:
                 best_loss = train_loss
 
-                if args.check_point:
+                # if args.check_point:
+                if True:
                     torch.save({
                         'model_state_dict': model.state_dict(),
                         'optimizer_state_dict': opt.state_dict(),

@@ -38,7 +38,7 @@ def parse_args():
     parser.add_argument('--seed', type=int, default=1986,
                         help='global random seed number')
 
-    parser.add_argument('--epochs', type=int, default=100,
+    parser.add_argument('--epochs', type=int, default=20,
                         help='number of epochs of training')
 
     parser.add_argument('--lr', type=float, default=0.01,
@@ -233,9 +233,11 @@ def get_doc_emb(args):
     doc_spec = doc_emb_data.spec_id.values
     doc_svc = doc_emb_data.svc_id.values
 
+
     spec_emb = np.zeros((49, 128), dtype=float)
-    for i in range(49):
-         spec_emb[i] = np.mean(doc_emb_prime[np.where(doc_spec == i)], axis=0)
+    # for i in range(49):
+    #      spec_emb[i] = np.mean(doc_emb_prime[np.where(doc_spec == i)], axis=0)
+
     PickleUtils.saver('saved_data/spec_emb.pkl', spec_emb)
 
 

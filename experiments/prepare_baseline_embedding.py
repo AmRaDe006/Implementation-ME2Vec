@@ -8,7 +8,13 @@ import collections
 import time
 import random
 
-from src.utils import PickleUtils
+import sys
+import os
+s_dir = os.path.dirname(__file__)
+module_dir = os.path.join(s_dir, "..", "src")
+sys.path.append(module_dir)
+
+from utils import PickleUtils
 from stellargraph import IndexedArray, StellarGraph
 
 # load data
@@ -47,6 +53,7 @@ data_pat_svc.columns = ['input_node','neighbor_node','weight']
 data_svc_pat.columns = ['input_node','neighbor_node','weight']
 data = pd.concat([data_pat_svc, data_svc_pat], axis=0,ignore_index=True)
 
+
 data.to_csv('saved_data/baseline/data_for_baseline_LINE.csv', index=False)
 
 # get negative weights
@@ -59,7 +66,7 @@ neg_weights = med_jny.groupby('pat_id').size().reset_index(name='freq').rename(c
 neg_weights['freq'] = neg_weights['freq'] ** 0.75
 neg_weights['freq'] = neg_weights['freq'] / sum(neg_weights['freq'])
 
-neg_weights = neg_weights.append(svc_neg_weights).reset_index(drop=True)
+neg_weights = neg_weights.append(svc_neg_weights).reset_index(drop=True) # type: ignore
 neg_weights.to_csv('saved_data/baseline/neg_weights_baseline_LINE.csv', index=False)
 
 ##############################################################
@@ -70,7 +77,7 @@ num_pats = len(med_jny.patientunitstayid.unique())
 med_jny['svc_id'] = med_jny['svc_id'] + num_pats
 
 data = med_jny.groupby(['pat_id','svc_id']).size().reset_index(name='cnt')
-data.to_csv('saved_data/baseline/baseline_node2vec.edgelist', header=None, index=None, sep=' ', mode='a')
+data.to_csv('saved_data/baseline/baseline_node2vec.edgelist', header=None, index=None, sep=' ', mode='a') # type: ignore
 
 ##############################################################
 # Prepare data for metapath2vec
@@ -93,9 +100,11 @@ spec_svc_edges = med_jny[['spec_id','svc_id']].drop_duplicates() \
     .rename(columns={'spec_id':'source', 'svc_id':'target'})
 
 all_edges = pd.concat([pat_spec_edges, pat_svc_edges, spec_svc_edges], axis=0, ignore_index=True)
+all_edges.drop_duplicates(subset=['source', 'target'], keep='first', inplace=True)
 
 pat_nodes = pd.DataFrame(index=med_jny.pat_id.unique().tolist())
 spec_nodes = pd.DataFrame(index=med_jny.spec_id.unique().tolist())
+spec_nodes = spec_nodes.rename(index=lambda x: 's_' + str(x))
 svc_nodes = pd.DataFrame(index=med_jny.svc_id.unique().tolist())
 
 graph_metapath = StellarGraph({"patient":pat_nodes, "specialty":spec_nodes, "service":svc_nodes}, all_edges)
