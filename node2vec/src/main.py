@@ -22,31 +22,31 @@ def parse_args():
 	'''
 	parser = argparse.ArgumentParser(description="Run node2vec.")
 
-	parser.add_argument('--input', nargs='?', default='node2vec/graph/karate.edgelist',
+	parser.add_argument('--input', nargs='?', default='node2vec/graph/ppd_eICU.edgelist',
 	                    help='Input graph path')
 
-	parser.add_argument('--output', nargs='?', default='node2vec/emb/karate.emb',
+	parser.add_argument('--output', nargs='?', default='node2vec/emb/ppd_eICU.emb',
 	                    help='Embeddings path')
 
 	parser.add_argument('--dimensions', type=int, default=128,
 	                    help='Number of dimensions. Default is 128.')
 
-	parser.add_argument('--walk-length', type=int, default=80,
+	parser.add_argument('--walk-length', type=int, default=200,
 	                    help='Length of walk per source. Default is 80.')
 
 	parser.add_argument('--num-walks', type=int, default=10,
 	                    help='Number of walks per source. Default is 10.')
 
-	parser.add_argument('--window-size', type=int, default=10,
+	parser.add_argument('--window-size', type=int, default=20,
                     	help='Context size for optimization. Default is 10.')
 
-	parser.add_argument('--iter', default=1, type=int,
+	parser.add_argument('--iter', default=150, type=int,
                       help='Number of epochs in SGD')
 
 	parser.add_argument('--workers', type=int, default=8,
 	                    help='Number of parallel workers. Default is 8.')
 
-	parser.add_argument('--p', type=float, default=1,
+	parser.add_argument('--p', type=float, default=4,
 	                    help='Return hyperparameter. Default is 1.')
 
 	parser.add_argument('--q', type=float, default=1,

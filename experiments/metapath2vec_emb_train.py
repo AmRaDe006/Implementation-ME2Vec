@@ -1,9 +1,17 @@
+import argparse
 import numpy as np
 import networkx as nx
+
+import sys
+import os
+s_dir = os.path.dirname(__file__)
+module_dir = os.path.join(s_dir, "..", "src")
+sys.path.append(module_dir)
+
 from stellargraph.data import UniformRandomMetaPathWalk
-from stellargraph import StellarGraph
+# from stellargraph import StellarGraph
 from gensim.models import Word2Vec
-from src.utils import PickleUtils
+from utils import PickleUtils
 
 def parse_args():
     '''

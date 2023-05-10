@@ -2,16 +2,22 @@ import random
 import argparse
 import numpy as np
 import pandas as pd
-from src.utils import PickleUtils
+
+import sys
+import os
+s_dir = os.path.dirname(__file__)
+module_dir = os.path.join(s_dir, "..", "src")
+sys.path.append(module_dir)
+from utils import PickleUtils
 
 import torch
 import torch.optim as optim
-from torch.utils.data import BatchSampler, RandomSampler
+from torch.utils.data.sampler import BatchSampler, RandomSampler
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 
-from src.line_loss import line_loss_homo
+from line_loss import line_loss_homo
 
-dev = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+dev = torch.device("cuda:0" if torch.cuda.is_available() else "cpu") # type: ignore
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -19,7 +25,7 @@ def parse_args():
     parser.add_argument('--seed', type=int, default=1986,
                         help='global random seed number')
 
-    parser.add_argument('--epochs', type=int, default=200,
+    parser.add_argument('--epochs', type=int, default=30,
                         help='number of epochs of training')
 
     parser.add_argument('--lr', type=float, default=0.0025,
@@ -59,9 +65,9 @@ def train(epoch, model, optimizer, args, pat_journey, num_node):
         
         cur_batch_journey = pat_journey[pat_journey['input_node'].isin(idx_list[i])]
         
-        input_labels = torch.tensor(cur_batch_journey['input_node'].to_numpy(), dtype=torch.long, device=args.dev)
-        output_labels = torch.tensor(cur_batch_journey['neighbor_node'].to_numpy(), dtype=torch.long, device=args.dev)
-        input_weights = torch.tensor(cur_batch_journey['weight'].to_numpy(), dtype=torch.float, device=args.dev)
+        input_labels = torch.tensor(cur_batch_journey['input_node'].to_numpy(), dtype=torch.long, device=dev)
+        output_labels = torch.tensor(cur_batch_journey['neighbor_node'].to_numpy(), dtype=torch.long, device=dev)
+        input_weights = torch.tensor(cur_batch_journey['weight'].to_numpy(), dtype=torch.float, device=dev)
                 
         optimizer.zero_grad()
         loss = model(input_labels, output_labels, input_weights, args.neg_samples)
@@ -83,20 +89,20 @@ def set_rnd_seed(args):
     random.seed(args.seed)
     np.random.seed(args.seed)
     torch.manual_seed(args.seed)
-    torch.cuda.manual_seed(args.seed)
+    torch.cuda.manual_seed(args.seed) # type: ignore
 
 def main(args):
 
     # load data
     data = pd.read_csv('saved_data/baseline/data_for_baseline_LINE.csv')
     neg_weights = pd.read_csv('saved_data/baseline/neg_weights_baseline_LINE.csv')
-    neg_weights = torch.tensor(neg_weights.freq.values, dtype=torch.float, device=args.dev)
+    neg_weights = torch.tensor(neg_weights.freq.values, dtype=torch.float, device=dev)
 
     # define model
     num_node = len(data.input_node.unique())
     set_rnd_seed(args)
 
-    model = line_loss_homo(num_node, args.embed_dim, neg_weights).to(args.dev)
+    model = line_loss_homo(num_node, args.embed_dim, neg_weights).to(dev)
     opt = optim.Adam(model.parameters(), lr=args.lr)
     scheduler = ReduceLROnPlateau(opt, factor=args.lr_factor, patience=args.lr_patience, verbose=True)
 
@@ -109,7 +115,8 @@ def main(args):
             if train_loss < best_loss:
                 best_loss = train_loss
 
-                if args.check_point:
+                # if args.check_point:
+                if True:
                     torch.save({
                         'model_state_dict': model.state_dict(),
                         'optimizer_state_dict': opt.state_dict(),

@@ -1,7 +1,14 @@
 import random
 import numpy as np
 import pandas as pd
-from src.utils import PickleUtils
+
+import sys
+import os
+s_dir = os.path.dirname(__file__)
+module_dir = os.path.join(s_dir, "..", "src")
+sys.path.append(module_dir)
+
+from utils import PickleUtils
 
 from sklearn.linear_model import LogisticRegression, LogisticRegressionCV
 from sklearn.model_selection import KFold, StratifiedKFold
@@ -9,13 +16,17 @@ from sklearn.model_selection import KFold, StratifiedKFold
 from sklearn.metrics import average_precision_score, precision_recall_curve
 from sklearn.metrics import roc_auc_score, f1_score
 
+from scipy.sparse import csr_matrix
+from sklearn.decomposition import NMF
+
 ##############################################################
 # functions
 ##############################################################
 
 def LogisticRegression_cv(data, labels, folds):
     nmf_perf = np.zeros((folds, 2), dtype=float)
-    kf = StratifiedKFold(n_splits=folds, random_state=42)
+    # kf = StratifiedKFold(n_splits=folds, random_state=42)
+    kf = StratifiedKFold(n_splits=folds, random_state=None)
 
     i = 0
     for train_idx, test_idx in kf.split(data, labels):

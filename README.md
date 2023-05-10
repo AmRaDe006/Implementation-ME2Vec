@@ -1,8 +1,7 @@
-# ME2Vec: A Graph-Based Hierarchical Medical Embedding Framework for Healthcare Applications
+This README is from github of the [**Leveraging graph-based hierarchical medical entity embedding for healthcare applications**](https://www.nature.com/articles/s41598-021-85255-w) paper. Original code available at https://github.com/tong-wu-umn/ME2Vec
 
-This repo is for paper [**Leveraging graph-based hierarchical medical entity embedding for healthcare applications**](https://www.nature.com/articles/s41598-021-85255-w) published in *Scientific Reports*
 
-## Authors
+## Authors of the paper
 Tong Wu<sup>1</sup>, Yunlong Wang<sup>1*</sup>, Yue Wang<sup>1</sup>, Emily Zhao<sup>1</sup>, Yilian Yuan<sup>1</sup>
 
 <sup>1</sup> Advanced Analytics, IQVIA Inc., Plymouth Meeting, Pennsylvania, USA
@@ -32,11 +31,14 @@ torch==1.7.1
 ### Generate ME2Vec embeddings
 
 The implementation of *node2vec* is from [aditya-grover](https://github.com/aditya-grover)/**[node2vec](https://github.com/aditya-grover/node2vec)**. It should be downloaded to the repo folder with the name `node2vec`.
+This has already been done in this implementation of the code
+
+(Note that current directory is ME2Vec)
 
 To generate service embedding, run
 ```python
 python experiments/prepare_svc_embedding.py
-python node2vec/src/main.py --input graph/ppd_eICU.edgelist --output emb/ppd_eICU.emd --dimensions 128 --walk-length 100 --num-walks 10 --window-size 20 --iter 150 --workers 8 --p 4 --q 1
+python node2vec/src/main.py --input node2vec/graph/ppd_eICU.edgelist --output node2vec/emb/ppd_eICU.emd --dimensions 128 --walk-length 100 --num-walks 10 --window-size 20 --iter 150 --workers 8 --p 4 --q 1
 ```
 
 To generate doctor embedding, run
@@ -60,7 +62,8 @@ python experiments/prepare_baseline_embedding.py
 
 *node2vec*:
 ```python
-python node2vec/src/main.py --input graph/baseline_node2vec.edgelist --output emb/baseline_node2vec_emb.emd --dimensions 128 --walk-length 100 --num-walks 10 --window-size 20 --iter 150 --workers 8 --p 4 --q 1
+# python node2vec/src/main.py --input graph/baseline_node2vec.edgelist --output emb/baseline_node2vec_emb.emd --dimensions 128 --walk-length 100 --num-walks 10 --window-size 20 --iter 150 --workers 8 --p 4 --q 1
+python node2vec/src/main.py --input saved_data/baseline/baseline_node2vec.edgelist --output node2vec/emb/baseline_node2vec_emb.emd --dimensions 128 --walk-length 100 --num-walks 10 --window-size 20 --iter 150 --workers 8 --p 4 --q 1
 ```
 
 *LINE*:
@@ -75,7 +78,7 @@ python experiments/metapath2vec_emb_train.py --input saved_data/baseline/graph_m
 
 For *nonnegative matrix factorization (NMF)* and *spectral clustering (SC)*, their embeddings are generated in the experiment code.
 
-### Experiment: Readmission prediction
+<!-- ### Experiment: Readmission prediction (incomplete)
 
 ```python
 python experiments/readmission_prediction.py
@@ -84,6 +87,6 @@ python experiments/readmission_prediction.py
 ### Experiment: Sequential learning using pretrained emebeddings
 
 ```python
-python experiments/sequential_learning_finetune.py 
+python experiments/sequential_learning_finetune.py  -->
 ```
 

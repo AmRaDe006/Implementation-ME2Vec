@@ -112,8 +112,8 @@ def alias_setup(probs):
 	'''
 	K = len(probs)
 	q = np.zeros(K)
-	J = np.zeros(K, dtype=np.int)# type: ignore
-	
+	# J = np.zeros(K, dtype=np.int)# type: ignore
+	J = np.zeros(K, dtype=np.int64)
 	smaller = []
 	larger = []
 	for kk, prob in enumerate(probs):

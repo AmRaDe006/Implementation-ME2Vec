@@ -237,6 +237,13 @@ def get_doc_emb(args):
     spec_emb = np.zeros((49, 128), dtype=float)
     # for i in range(49):
     #      spec_emb[i] = np.mean(doc_emb_prime[np.where(doc_spec == i)], axis=0)
+    for i in range(49):
+        indices = np.where(doc_spec == i)[0]
+        if len(indices) > 0 and indices[-1] < len(doc_emb_prime):
+            spec_emb[i] = np.mean(doc_emb_prime[indices], axis=0)
+        else:
+            spec_emb[i] = np.zeros_like(doc_emb_prime[0])
+
 
     PickleUtils.saver('saved_data/spec_emb.pkl', spec_emb)
 
@@ -310,7 +317,8 @@ def main(args):
         if test_loss < best_loss:
             best_loss = test_loss
 
-            if args.checkpoint:
+            # if args.checkpoint:
+            if True:
                 torch.save({
                     'model_state_dict': model.state_dict(),
                     'optimizer_state_dict': optimizer.state_dict(),
